@@ -1,0 +1,336 @@
+.hero {
+  padding: 2rem;
+  background: #f5f7fa;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #1a237e;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.hero button {
+  padding: 0.6rem 1.2rem;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #1565c0;
+}
+
+/* Categories Section */
+.categories {
+  padding: 3rem 2rem;
+  text-align: center;
+  background: #f5f7fa;
+}
+
+.categories h2 {
+  font-size: 2rem;
+  color: #0d47a1;
+  margin-bottom: 2rem;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.category-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  font-weight: 500;
+  color: #333;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  background-color: #e3f2fd;
+}
+/*catagories part end*/
+
+/* Services Section */
+.services {
+  padding: 3rem 2rem;
+  background: #e8f0fe;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 2rem;
+  color: #0d47a1;
+  margin-bottom: 2rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.service-card {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card h3 {
+  color: #1565c0;
+  margin-bottom: 0.8rem;
+}
+
+.service-card p {
+  color: #444;
+  font-size: 0.95rem;
+}
+/* service part end */
+
+/* product part start */
+.products {
+  padding: 3rem 2rem;
+  background: #fff;
+  text-align: center;
+}
+
+.products h2 {
+  font-size: 2rem;
+  color: #0d47a1;
+  margin-bottom: 2rem;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.product-card-one {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  width: 100%;
+  max-width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  min-height: 360px;
+}
+
+.product-card-two {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  width: 100%;
+  max-width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  min-height: 360px;
+}
+.product-card-three {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  width: 100%;
+  max-width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  min-height: 360px;
+}
+.product-card-four {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  width: 100%;
+  max-width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  min-height: 360px;
+}
+.product-card img {
+  width: 100%;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.product-card-one h3 {
+  font-size: 1.1rem;
+  color: #333;
+  min-height: 48px; /* Maintain heading line alignment */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top:100px;
+}
+.product-card-two h3 {
+  font-size: 1.1rem;
+  color: #333;
+  min-height: 48px; /* Maintain heading line alignment */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top:50px;
+}
+.product-card-three h3 {
+  font-size: 1.1rem;
+  color: #333;
+  min-height: 48px; /* Maintain heading line alignment */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top:130px;
+}
+.product-card-four h3 {
+  font-size: 1.1rem;
+  color: #333;
+  min-height: 48px; /* Maintain heading line alignment */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top:50px;
+}
+.product-card p {
+  font-weight: bold;
+  color: #1976d2;
+  margin-bottom: 0.8rem;
+  min-height: 24px; /* Price block fixed height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-card-one button {
+  background: #1976d2;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top:10px; /* Push button to bottom */
+}
+.product-card-two button {
+  background: #1976d2;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top:10px; /* Push button to bottom */
+}
+.product-card-three button {
+  background: #1976d2;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top:10px; /* Push button to bottom */
+}
+.product-card-four button {
+  background: #1976d2;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top:10px; /* Push button to bottom */
+}
+.product-card button:hover {
+  background: #1565c0;
+}
+.next-button-container {
+  margin-top: 8rem;
+  text-align: center;
+}
+
+.next-button {
+  background: #79b8f6;
+  color: black;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* product part end */
+
+/* CTA Section */
+.cta {
+  background: linear-gradient(90deg, #1976d2, #1565c0);
+  color: white;
+  padding: 3rem 2rem;
+  text-align: center;
+  border-radius: 12px;
+  margin: 3rem 2rem;
+}
+
+.cta-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cta-content p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-content button {
+  background: #fff;
+  color: #1976d2;
+  border: none;
+  padding: 0.6rem 1.4rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cta-content button:hover {
+  background: #e3f2fd;
+}
+
+

@@ -1,0 +1,105 @@
+.products-page {
+  padding: 2rem;
+  text-align: center;
+}
+
+.products-page h2 {
+  margin-bottom: 2rem;
+  color: #0d47a1;
+}
+
+/* ===== Product Grid ===== */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* মোবাইলে ২টা পাশাপাশি */
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  .products-grid {
+    grid-template-columns: repeat(3, 1fr); /* ট্যাবলেট */
+  }
+}
+
+@media (min-width: 1024px) {
+  .products-grid {
+    grid-template-columns: repeat(5, 1fr); /* ল্যাপটপ/ডেস্কটপ */
+  }
+}
+
+/* ===== Product Card ===== */
+.product-card {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  height: 100%;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+/* ===== Product Title (h3) ===== */
+.product-card h3 {
+  font-size: 1rem;
+  color: #333;
+  margin: 0;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ===== Price ===== */
+.product-card p {
+  font-weight: bold;
+  color: #1976d2;
+  margin: 0;
+  text-align: center;
+}
+
+/* ===== Button ===== */
+.product-card button {
+  background: #1976d2;
+  color: white;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-card button:hover {
+  background: #1565c0;
+}
+
+/* ===== Filter Bar ===== */
+.filter-bar {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.filter-bar input,
+.filter-bar select {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 200px;
+}
